@@ -1,0 +1,80 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(131, 131, 131);
+}
+
+.main-container{
+  max-width: 500px;
+  margin: auto;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width:400px;
+  height:400px;
+  background-color: #FFF9CA
+  
+}
+
+.grid div {
+  width: 90px;
+  height: 90px;
+  
+  margin: 5px;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.grid div.zero-tile {
+  background-color: #e2e2e2;
+  color: #e2e2e2 !important;
+}
+
+.grid div.two-tile {
+  background-color: #fcceba
+}
+
+.grid div.four-tile {
+  background-color: #f8b192
+}
+
+.grid div.eight-tile {
+  background-color: #ed9874
+}
+
+.grid div.sixteen-tile {
+  background-color: #ec7560
+}
+
+.grid div.thirtytwo-tile{
+  background-color: #e55f48;
+}
+
+.grid div.sixtyfour-tile{
+  background-color: #da472d;
+}
+
+.grid div.onetwoeight-tile{
+  font-size: 40px !important;
+  background-color: #c62f14;
+}
+
+.grid div.twofivesix-tile{
+  background-color: #a4210a;
+}
+
+.grid div.fiveonetwo-tile{
+  background-color: #871501;
+}
+
+.grid div.onezerotwofour-tile{
+  background-color: #610f00;
+}
+
+.grid div.twozerofoureight-tile{
+  background-color: #ffb700;
+}
